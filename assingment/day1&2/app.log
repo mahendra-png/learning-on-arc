@@ -1,0 +1,21 @@
+2026-02-11 08:50:52,737 - app - INFO - Connected to Redis
+2026-02-11 08:51:13,875 - app - INFO - Fetching note with ID: 2 for user ID: 1
+2026-02-11 08:51:23,909 - app - ERROR - Error getting cache for key: user:1:note:2 - Error -3 connecting to redis:6379. Temporary failure in name resolution.
+2026-02-11 08:51:23,909 - app - INFO - Note not found in cache for key: user:1:note:2, fetching from database
+2026-02-11 08:51:23,909 - app - INFO - Note found in database for ID: 2, caching result
+2026-02-11 08:51:36,513 - app - ERROR - Error setting cache for key: user:1:note:2 - Error -3 connecting to redis:6379. Temporary failure in name resolution.
+2026-02-11 08:55:31,396 - app - INFO - Fetching note with ID: 2 for user ID: 1
+2026-02-11 08:55:44,058 - app - ERROR - Error getting cache for key: user:1:note:2 - Error -3 connecting to redis:6379. Temporary failure in name resolution.
+2026-02-11 08:55:44,059 - app - INFO - Note not found in cache for key: user:1:note:2, fetching from database
+2026-02-11 08:55:44,059 - app - INFO - Note found in database for ID: 2, caching result
+2026-02-11 08:55:54,069 - app - ERROR - Error setting cache for key: user:1:note:2 - Error -3 connecting to redis:6379. Temporary failure in name resolution.
+2026-02-11 08:56:04,237 - app - INFO - Fetching note with ID: 2 for user ID: 1
+2026-02-11 08:56:14,248 - app - ERROR - Error getting cache for key: user:1:note:2 - Error -3 connecting to redis:6379. Temporary failure in name resolution.
+2026-02-11 08:56:14,248 - app - INFO - Note not found in cache for key: user:1:note:2, fetching from database
+2026-02-11 08:56:14,248 - app - INFO - Note found in database for ID: 2, caching result
+2026-02-11 08:56:26,885 - app - ERROR - Error setting cache for key: user:1:note:2 - Error -3 connecting to redis:6379. Temporary failure in name resolution.
+2026-02-11 10:37:31,142 - app - INFO - Fetching note with ID: 2 for user ID: 1
+2026-02-11 10:37:43,375 - app - ERROR - Error getting cache for key: user:1:note:2 - Error -3 connecting to redis:6379. Temporary failure in name resolution.
+2026-02-11 10:37:43,376 - app - INFO - Note not found in cache for key: user:1:note:2, fetching from database
+2026-02-11 10:37:43,377 - app - INFO - Note found in database for ID: 2, caching result
+2026-02-11 10:37:53,414 - app - ERROR - Error setting cache for key: user:1:note:2 - Error -3 connecting to redis:6379. Temporary failure in name resolution.
